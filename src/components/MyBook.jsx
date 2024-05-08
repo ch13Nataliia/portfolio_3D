@@ -6,6 +6,8 @@ import FirstPage from './pages/Hero/FirstPage';
 import SkillsPage from './pages/Skills/SkillsPage';
 import Services from './pages/Serve/Services';
 import AboutPage from './pages/About/AboutPage';
+import ProjectPageOne from './pages/Projects/ProjectPageOne';
+import ProjectPageTwo from './pages/Projects/ProjectPageTwo';
 
 function MyBook() {
   return (
@@ -26,7 +28,12 @@ function MyBook() {
       <Page numer={5}>
        <Services />
       </Page>
-     
+      <Page numer={6}>
+       <ProjectPageOne />
+      </Page>
+      <Page numer={7}>
+       <ProjectPageTwo />
+      </Page>
     </HTMLFlipBook>
   );
 }
