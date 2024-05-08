@@ -5,6 +5,7 @@ import coverImg from '../assets/Cover2.png';
 import FirstPage from './pages/Hero/FirstPage';
 import SkillsPage from './pages/Skills/SkillsPage';
 import Services from './pages/Serve/Services';
+import AboutPage from './pages/About/AboutPage';
 
 function MyBook() {
   return (
@@ -19,12 +20,13 @@ function MyBook() {
       <Page numer={3}>
         <SkillsPage />
       </Page>
-      <Page numer={4}>
+       <Page numer={4}>
+     <AboutPage />
+      </Page>
+      <Page numer={5}>
        <Services />
       </Page>
-      <Page numer={4}>
-      <div className='text-black'>Page5</div>
-      </Page>
+     
     </HTMLFlipBook>
   );
 }
