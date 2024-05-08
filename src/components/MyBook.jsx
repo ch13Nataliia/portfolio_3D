@@ -4,6 +4,7 @@ import Cover from './pages/Cover/Cover';
 import coverImg from '../assets/Cover2.png';
 import FirstPage from './pages/Hero/FirstPage';
 import SkillsPage from './pages/Skills/SkillsPage';
+import Services from './pages/Serve/Services';
 
 function MyBook() {
   return (
@@ -19,7 +20,10 @@ function MyBook() {
         <SkillsPage />
       </Page>
       <Page numer={4}>
-        <div className="demoPage text-gray-800 text-3xl">Page 4</div>
+       <Services />
+      </Page>
+      <Page numer={4}>
+      <div className='text-black'>Page5</div>
       </Page>
     </HTMLFlipBook>
   );
