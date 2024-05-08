@@ -18,40 +18,41 @@ const FirstPage = () => {
           {/* text container */}
           <div className="text-black">
             <div className="space-y-3">
-              <p className="uppercase text-slate-500"> Hello  </p>
+              <p className="uppercase text-slate-500"> Hello </p>
               <p className="text-3xl md:text-6xl font-bold text-slate-500">
                 I am Nataliia
               </p>
               <p className="text-slate-500 text-left">Full Stack Developer</p>
-              <p className="text-slate-500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                labore sint autem quos incidunt magnam provident modi voluptate
-                eaque reprehenderit libero, rem quisquam porro accusamus dolor
-                dolore sequi cum excepturi.
+              <p className="text-slate-500 text-sm">
+                I am Full-Stack Software Engineer with experience in JavaScript:
+                ES6+, AJAX and API - REST and GraphQL, Next.js, React, OAuth. I
+                test my projects using TypeScript, Cypress, Vitest, Vite. My
+                projects based on Node.js: Vanilla and Express, using databases:
+                SQL - Postgres, NoSQL - MongoDB with Mongoose.js, Redis,
+                Firebase. In my work I use HTML, CSS 3: responsive design,
+                Flexbox and CSS Grid, preprocessors (SASS) and CSS frameworks.
               </p>
-       
-        {/* button links */}
-        <div className="flex  gap-6">
-          <button className="  mt-10">
-            <a
-              href="#"
-              className="text-white font-bold bg-primary rounded-md py-2 px-6 hover:bg-primary/70"
-            >
-              Download CV
-            </a>
-          </button>
-          <button className="mt-10">
-            <a
-              href="mailto:tcirulnatalya@gmail.com"
-              className="text-primary font-bold bg-secondary border-[2px] rounded-md py-2 px-6 hover:bg-primary hover:text-white"
-            >
-              Contact Me
-            </a>
-          </button>
-        </div>
 
-
-              
+              {/* button links */}
+              <div className="flex  gap-6">
+                <button className="  mt-4">
+                  <a
+                    href="/Nataliia Tsirul CV.pdf"
+                    target="_blank"
+                    className="text-white font-bold bg-primary rounded-md py-2 px-6 hover:bg-primary/70"
+                  >
+                    Download CV
+                  </a>
+                </button>
+                <button className="mt-4">
+                  <a
+                    href="mailto:tcirulnatalya@gmail.com"
+                    className="text-primary font-bold bg-secondary border-[2px] rounded-md py-2 px-6 hover:bg-primary hover:text-white"
+                  >
+                    Contact Me
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>

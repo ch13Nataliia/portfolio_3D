@@ -9,36 +9,46 @@ const AboutPage = () => {
           <h1 className="text-black inline-block text-3xl text-center font-bold md-3 border-b-2 border-primary pb-1">
             About Me
           </h1>
-          <p className="text-sm text-slate-500 text-center md:w-[80%] mx-auto">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
         </div>
         {/* details  */}
         <div className="text-slate-500 mt-14 py-8">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            tenetur, at aut veritatis optio, corrupti nam dicta sit
-            necessitatibus quidem voluptates eligendi ullam laudantium ad
-            tempore error hic facere voluptatum?
+            The diversity in my experience has served me well thus far. My
+            commitment to maintaining high standards and my ability to work
+            effectively both independently and within a team make me a strong
+            candidate for any potential role.
           </p>
           <br />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe
-            repudiandae inventore molestiae, explicabo quo commodi repellendus
-            impedit voluptates a, nam accusantium obcaecati deleniti voluptatem
-            tempore. Eligendi eum commodi culpa.
+            Having developed a solid foundation in customer service, I am eager
+            to transition into a role where I can apply my passion for software
+            development and my knowledge of technologies such as JavaScript,
+            HTML5, and CSS3. I have actively pursued learning opportunities to
+            expand my skill set. I am excited about the prospect of working with
+            emerging technologies like React, Nodejs, and Next. My dedication to
+            continuous learning and my attention to detail align well with the
+            qualities and skills desired for my profession.
+          </p>
+          <br />
+          <p>
+            I am enthusiastic about opportunities that can further develop my
+            skills through work. I look forward to discussing how my experience,
+            skills and values can benefit your company.
           </p>
         </div>
         {/* social links */}
-        <div className=" flex text-slate-500 gap-6">
-          <AiFillGithub className="social-btn" />
-          <AiFillLinkedin className="social-btn" />
+        <div className=" flex text-slate-500 gap-6 justify-end">
+        <a href="https://github.com/ch13Nataliia" target="_blank"><AiFillGithub className="social-btn"  /></a>
+        <a href="https://www.linkedin.com/in/nataliia-tsirul-242079168/" target="_blank"> <AiFillLinkedin className="social-btn" /></a>
+          
+         
         </div>
         {/* button links */}
-        <div className="flex  gap-6">
+        <div className="flex justify-end gap-6">
           <button className="  mt-10">
             <a
-              href="#"
+              href="/Nataliia Tsirul CV.pdf"
+              target="_blank"
               className="text-white font-bold bg-primary rounded-md py-2 px-6 hover:bg-primary/70"
             >
               Download CV
@@ -46,7 +56,8 @@ const AboutPage = () => {
           </button>
           <button className="mt-10">
             <a
-              href="#"
+              href="mailto:tcirulnatalya@gmail.com"
+              target="_blank"
               className="text-primary font-bold bg-secondary border-[2px] rounded-md py-2 px-6 hover:bg-primary hover:text-white"
             >
               Contact Me

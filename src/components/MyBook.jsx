@@ -13,7 +13,7 @@ function MyBook() {
   return (
     <HTMLFlipBook width={600} height={800} showCover="true">
       <Page numer={1}>
-        <Cover coverImg={coverImg} title="My Portfolio" />
+        <Cover coverImg={coverImg} title="Portfolio" subtitle="Nataliia Tsirul"/>
       </Page>
 
       <Page numer={2}>
