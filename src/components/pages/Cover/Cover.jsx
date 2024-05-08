@@ -6,7 +6,6 @@ const Cover = ({ coverImg, title }) => {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-
     width: '600px',
   };
   return (
