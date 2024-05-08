@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import MyBook from './components/MyBook';
-import BgTexture from './assets/backGround.png';
+import BgTexture from './assets/backGround.jpg';
 
 
 const BgTextureStyle = {
